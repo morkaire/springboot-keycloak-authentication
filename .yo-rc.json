@@ -1,0 +1,41 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.kairemor.test",
+      "nativeLanguage": "en"
+    },
+    "jhipsterVersion": "6.10.5",
+    "applicationType": "microservice",
+    "baseName": "accountservice",
+    "packageName": "com.kairemor.test",
+    "packageFolder": "com/kairemor/test",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "hazelcast",
+    "enableHibernateCache": true,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "mysql",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZjBjMTk1MjY2MTcwYjUwMjk1NzZiYzY4NmNiY2FmYzcxN2UzNDMyNDdkZjg1ZDIzY2ZiYzQ5ZDU4Y2QyN2NkYjMxNmE1MWNjMzJiYWMxZGE4ZDk1ZDY0Mzg3ZjA1MDVkYWUxNmU2MGVjMTE2MzhkYzE5YzM2NDk1OTk0OWI2MjE=",
+    "embeddableLaunchScript": false,
+    "creationTimestamp": 1633516837970,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "clientPackageManager": "npm",
+    "nativeLanguage": "en",
+    "languages": ["en"],
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}
