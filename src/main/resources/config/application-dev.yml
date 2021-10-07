@@ -39,7 +39,7 @@ spring:
     type: com.zaxxer.hikari.HikariDataSource
     url: jdbc:mysql://localhost:3306/accountservice?useUnicode=true&characterEncoding=utf8&useSSL=false&useLegacyDatetimeCode=false&serverTimezone=UTC&createDatabaseIfNotExist=true
     username: root
-    password:
+    password: password
     hikari:
       poolName: Hikari
       auto-commit: false
@@ -133,3 +133,12 @@ jhipster:
 # ===================================================================
 
 # application:
+application:
+  domain: test.com
+
+keycloak:
+  realm: demo
+  resource: account-service
+  auth-server-url: http://localhost:8080/auth/
+  credentials:
+    secret: bc1ce83e-1e77-4b3c-a028-f08a471dd70c

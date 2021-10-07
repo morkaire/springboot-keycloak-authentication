@@ -37,5 +37,10 @@
     "blueprints": [],
     "skipClient": true,
     "skipUserManagement": true
+  },
+  "generator-jhipster-entity-audit-daara": {
+    "auditFramework": "custom",
+    "auditPage": true,
+    "lastLiquibaseTimestamp": 1633516925000
   }
 }
